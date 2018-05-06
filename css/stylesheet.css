@@ -1,0 +1,381 @@
+/* ---- TYPOGRAPHY AND GENERAL LAYOUT ----- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h3,
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p,
+footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+#bio {
+    font-size: 1.5em;
+    max-width: 70vw;
+    padding-top: 1em;
+    padding-bottom: 6em;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+#name {
+    padding-top: 1.3em;
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.nav {
+    grid-column: 25%;
+    display: inline-block;
+    margin-top: 8.5em;
+    margin-left: 4.7em;
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.button {
+    background-color: #FFFFFF;
+    padding: 1em;
+    margin: 1.3em 0;
+    width: 130px;
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+#numbers {
+    font-size: 2.4em;
+    color: black;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+#email {
+    font-size: 4em;
+    text-align: right;
+    line-height: 1em;
+    padding: 0.3em;
+    padding-right: 2em;
+    color: white;
+}
+
+#bottom {
+    font-size: 1.5em;
+    text-align: left;
+    max-width: 70vw;
+    padding-left: 100px;
+    padding-top: 3em;
+    color: white;
+}
+
+#bottom2 {
+    font-size: 1.5em;
+    text-align: left;
+    max-width: 70vw;
+    padding-left: 100px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color: white;
+}
+
+h1 {
+    padding-bottom: 0px;
+    padding-top: 70px;
+}
+
+p .bio {
+    margin-top: -100px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 2em;
+    color: white;
+    background-color: black;
+}
+
+.case {
+    color: #ec6e81;
+}
+
+.case:visited {
+    color: #e9b00c;
+}
+
+.case:hover {
+    color: #1d8f98;
+}
+
+#copyright {
+    padding-top: 2em;
+}
+
+#content {
+    margin: auto;
+    background: #FFFFFF;
+    line-height: 2em;
+}
+
+header {
+    width: 90%;
+    margin: auto;
+}
+
+.solution {
+    margin-top: 1em;
+}
+
+.task {
+    margin-top: 1em;
+}
+
+
+/* --- BACKGROUND IMAGES ----- */
+
+#start {
+background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/master/images/bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#end {
+    background-color: black;
+}
+
+/* --- CSS GRID AND IMAGES----- */
+
+.app {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    margin-top: 5em;
+}
+
+.info-wrap {
+    grid-column: 5 / 9;
+}
+
+.mockup {
+    grid-column: 9 / 18;
+    width: auto;
+}
+
+.monsters {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.monstersimg {
+    grid-column: 5 / 13;
+    width: auto;
+    max-width: 40vw;
+    padding-top: 4em;
+}
+
+.info-wrap2 {
+    grid-column: 2 / 4;
+    padding-top: 6em;
+}
+
+.branding {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/master/images/bg2.png);
+    background-size: cover;
+}
+
+.brand {
+    grid-column: 7 / 18;
+    width: auto;
+    padding-top: 2em;
+}
+
+.info-wrap3 {
+    grid-column: 7 / 16;
+}
+
+.bike {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    padding-top: 77px;
+    background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/master/images/bg3.png);
+    background-size: cover;
+    padding-top: 5em;
+}
+
+.bikeimg {
+    grid-column: 7 / 18;
+    width: auto;
+}
+
+.info-wrap4 {
+    grid-column: 7 / 18;
+}
+
+.fashion {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.fashionimg {
+    grid-column: 3 / 12;
+    height: 800px;
+    width: auto;
+    padding-top: 5em;
+}
+
+.info-wrap5 {
+    grid-column: 12 / 16;
+    padding-top: 5em;
+}
+
+.IWD {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/master/images/bg4.png);
+    background-size: cover;
+    overflow: visible;
+    background-repeat: no-repeat;
+    padding-top: 20em;
+}
+
+.fem {
+    grid-column: 6 / 15;
+    height: 450px;
+    width: auto;
+}
+
+.info-wrap6 {
+    grid-column: 2 / 5;
+}
+
+.tractor {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    padding-top: 77px;
+    background-image:url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/master/images/bg5.png);
+    background-size: cover;
+    overflow: visible;
+    background-repeat: no-repeat; 
+}
+
+.tractorimg {
+    grid-column: 13 / 18;
+    width: auto;
+}
+
+.info-wrap7 {
+    grid-column: 8 / 11;
+}
+
+.future {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    padding-top: 77px;
+    background-image:url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/master/images/bg6.png);
+    background-size: cover;
+    overflow: visible;
+    background-repeat: no-repeat; 
+  margin-bottom: 5em;
+}
+
+.delorean {
+    grid-column: 2 / 11;
+    height: 800px;
+    width: auto;
+}
+
+.info-wrap8 {
+    grid-column: 11 / 14;
+}
+
+
+/* ---- IMAGES ----- */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mono {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---- SOCIAL ICONS ----- */
+
+.social a img {
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+}
+
+.social a:hover img {
+    opacity: 0.8;
+}
+
+.social li {
+    display: inline-block;
+    color: #444;
+}
+
+.social li img {
+    width: 45px;
+}
+
+.social {
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+    text-align: center;
+    margin: auto;
+}
+
+.social img {
+    width: 20%;
+    align-items: center;
+    display: block;
+    float: left;
+    margin: 1em 1em 1em 0
+}
+
+.social ul {
+    width: 75%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
