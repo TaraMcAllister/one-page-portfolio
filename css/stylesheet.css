@@ -167,7 +167,7 @@ header {
 /* --- BACKGROUND IMAGES ----- */
 
 #start {
-background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/master/images/bg.png);
+background: url(https://raw.githubusercontent.com/TaraMcAllister/portfolio/master/images/bg.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -213,7 +213,7 @@ background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/maste
 .branding {
     display: grid;
     grid-template-columns: repeat(18, 1fr);
-    background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/master/images/bg2.png);
+    background: url(https://raw.githubusercontent.com/TaraMcAllister/portfolio/master/images/bg2.png);
     background-size: cover;
 }
 
@@ -231,7 +231,7 @@ background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/maste
     display: grid;
     grid-template-columns: repeat(18, 1fr);
     padding-top: 77px;
-    background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/master/images/bg3.png);
+    background: url(https://raw.githubusercontent.com/TaraMcAllister/portfolio/master/images/bg3.png);
     background-size: cover;
     padding-top: 5em;
 }
@@ -265,7 +265,7 @@ background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/maste
 .IWD {
     display: grid;
     grid-template-columns: repeat(18, 1fr);
-    background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/master/images/bg4.png);
+    background: url(https://raw.githubusercontent.com/TaraMcAllister/portfolio/master/images/bg4.png);
     background-size: cover;
     overflow: visible;
     background-repeat: no-repeat;
@@ -286,7 +286,7 @@ background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/maste
     display: grid;
     grid-template-columns: repeat(18, 1fr);
     padding-top: 77px;
-    background-image:url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/master/images/bg5.png);
+    background-image:url(https://raw.githubusercontent.com/TaraMcAllister/portfolio/master/images/bg5.png);
     background-size: cover;
     overflow: visible;
     background-repeat: no-repeat; 
@@ -305,7 +305,7 @@ background: url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/maste
     display: grid;
     grid-template-columns: repeat(18, 1fr);
     padding-top: 77px;
-    background-image:url(https://raw.githubusercontent.com/TaraMcAllister/Portfolio/master/images/bg6.png);
+    background-image:url(https://raw.githubusercontent.com/TaraMcAllister/portfolio/master/images/bg6.png);
     background-size: cover;
     overflow: visible;
     background-repeat: no-repeat; 
