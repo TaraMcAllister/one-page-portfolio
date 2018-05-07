@@ -2,4 +2,4 @@
 
 IXD104 Portfolio Website
 ----------------
-- [Website](https://taramcallister.github.io/portfolio/index)
+- [Website](https://taramcallister.github.io/portfolio/index.html)
