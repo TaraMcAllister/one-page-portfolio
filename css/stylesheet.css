@@ -344,22 +344,16 @@ img {
 
 /* ---- SOCIAL ICONS ----- */
 
-.social a img {
-    -webkit-transition: opacity .25s ease-in-out;
-    transition: opacity .25s ease-in-out;
-}
-
 .social a:hover img {
     opacity: 0.8;
 }
 
 .social li {
     display: inline-block;
-    color: #444;
 }
 
 .social li img {
-    width: 45px;
+    width: 32px;
 }
 
 .social {
@@ -374,7 +368,7 @@ img {
     align-items: center;
     display: block;
     float: left;
-    margin: 1em 1em 1em 0
+    margin: 1em 1em 1em 1em;
 }
 
 .social ul {
@@ -397,18 +391,18 @@ img {
     }
 
     #bio {
-        font-size: 0.3em;
+        font-size: 0.7em !important;
         max-width: 70vw;
         padding-top: 1em;
         padding-bottom: 0em;
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 2em !important;
     }
 
     #name {
-        padding-top: 0.1em;
+        padding-top: 1em;
     }
 
     h3 {
@@ -422,7 +416,7 @@ img {
     }
 
     .app {
-        margin-top: 2.5em;
+        margin-top: 2em !important;
     }
 
     .info-wrap {
@@ -436,11 +430,11 @@ img {
     }
 
     p.task {
-        font-size: 0.5em;
+        font-size: 0.4em;
     }
 
     p.solution {
-        font-size: 0.5em;
+        font-size: 0.4em;
     }
 
     p.solution {
@@ -550,522 +544,6 @@ img {
     }
 
 }
-
-@media (max-width:700px) {
-    /* small tablet, portrait ipad, small browser */
-    #top {
-        display: grid;
-        grid-template-columns: 100%;
-    }
-    .nav {
-        display: none;
-    }
-
-    #bio {
-        font-size: 1em;
-        max-width: 70vw;
-        padding-top: 1em;
-        padding-bottom: 0em;
-    }
-
-    h1 {
-        font-size: 4em;
-    }
-
-    #name {
-        padding-top: 1em;
-    }
-
-    h3 {
-        display: block;
-        font-size: 1.3em;
-        -webkit-margin-before: 1em;
-        -webkit-margin-after: 0em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
-        font-weight: bold;
-    }
-
-    .app {
-        margin-top: 6em;
-    }
-
-    .info-wrap {
-        grid-column: 5 / 10;
-    }
-
-    .mockup {
-        margin-top: 1em;
-        grid-column: 10 / 18;
-        width: auto;
-    }
-
-    p.task {
-        font-size: 0.9em;
-    }
-
-    p.solution {
-        font-size: 0.9em;
-    }
-
-    p.solutiontrip {
-        font-size: 0.9em;
-    }
-
-    .monstersimg {
-        padding-top: 3em;
-        grid-column: 6 / 15;
-    }
-
-    .info-wrap2 {
-        padding-top: 2em;
-        padding-right: 2em;
-        grid-column: 2 / 6;
-    }
-
-    .brand {
-        padding-top: 1em;
-    }
-
-    .bike {
-        padding-top: 2em;
-    }
-
-    .fashionimg {
-        height: auto;
-        width: auto;
-        padding-top: 2em;
-    }
-
-    .info-wrap5 {
-        grid-column: 13 / 17;
-        padding-top: 2em;
-    }
-
-    .IWD {
-        padding-top: 10em;
-    }
-
-    .info-wrap6 {
-        grid-column: 2 / 6;
-    }
-
-    .fem {
-        grid-column: 7 / 16;
-        padding-top: 2em;
-        height: auto;
-    }
-
-    .tractor {
-        padding-top: 3em;
-    }
-
-    .info-wrap7 {
-        grid-column: 6 / 10;
-    }
-
-    .tractorimg {
-        grid-column: 11 / 17;
-        padding-bottom: 1em;
-    }
-
-    .future {
-        padding-top: 0em;
-    }
-
-    .delorean {
-        height: auto;
-    }
-
-    .info-wrap8 {
-        grid-column: 11 / 14;
-        padding-left: 1em;
-    }
-
-    #bottom {
-        font-size: 1.3em;
-        text-align: left;
-        max-width: 90vw;
-        padding-left: 37px;
-        padding-top: 3em;
-        color: white;
-    }
-
-    #bottom2 {
-        font-size: 1.3em;
-        text-align: left;
-        max-width: 90vw;
-        padding-left: 37px;
-        padding-bottom: 1em;
-        padding-top: 1em;
-        color: white;
-    }
-
-    #email {
-        font-size: 3em;
-        line-height: 1em;
-        padding-right: 2em;
-        padding-left: 2em;
-        padding-bottom: 1em;
-        color: white;
-    }
-
-}
-
-@media (max-width:800px) {
-    /* small tablet, portrait ipad, small browser */
-    #top {
-        display: grid;
-        grid-template-columns: 100%;
-    }
-    .nav {
-        display: none;
-    }
-
-    #bio {
-        font-size: 1.4em;
-        max-width: 70vw;
-        padding-top: 1em;
-        padding-bottom: 0em;
-    }
-
-    h1 {
-        font-size: 4em;
-    }
-
-    #name {
-        padding-top: 4em;
-    }
-
-    h3 {
-        display: block;
-        font-size: 1.3em;
-        -webkit-margin-before: 1em;
-        -webkit-margin-after: 0em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
-        font-weight: bold;
-    }
-
-    .app {
-        margin-top: 4em;
-    }
-
-    .info-wrap {
-        grid-column: 5 / 10;
-    }
-
-    .mockup {
-        margin-top: 1em;
-        grid-column: 10 / 18;
-        width: auto;
-    }
-
-    p.task {
-        font-size: 0.6em;
-    }
-
-    p.solution {
-        font-size: 0.6em;
-    }
-
-    p.solutiontrip {
-        font-size: 0.6em;
-    }
-
-    .monstersimg {
-        padding-top: 3em;
-        grid-column: 6 / 15;
-    }
-
-    .info-wrap2 {
-        padding-top: 2em;
-        padding-right: 2em;
-        grid-column: 2 / 6;
-    }
-
-    .brand {
-        padding-top: 1em;
-    }
-
-    .bike {
-        padding-top: 2em;
-    }
-
-    .fashionimg {
-        height: auto;
-        width: auto;
-        padding-top: 2em;
-    }
-
-    .info-wrap5 {
-        grid-column: 13 / 17;
-        padding-top: 2em;
-    }
-
-    .IWD {
-        padding-top: 8em;
-    }
-
-    .info-wrap6 {
-        grid-column: 2 / 6;
-    }
-
-    .fem {
-        grid-column: 7 / 16;
-        padding-top: 2em;
-        height: auto;
-    }
-
-    .tractor {
-        padding-top: 3em;
-    }
-
-    .info-wrap7 {
-        grid-column: 6 / 10;
-    }
-
-    .tractorimg {
-        grid-column: 11 / 17;
-        padding-bottom: 1em;
-    }
-
-    .future {
-        padding-top: 0em;
-    }
-
-    .delorean {
-        height: auto;
-    }
-
-    .info-wrap8 {
-        grid-column: 11 / 14;
-        padding-left: 1em;
-    }
-
-    #bottom {
-        font-size: 1.3em;
-        text-align: left;
-        max-width: 90vw;
-        padding-left: 37px;
-        padding-top: 3em;
-        color: white;
-    }
-
-    #bottom2 {
-        font-size: 1.3em;
-        text-align: left;
-        max-width: 90vw;
-        padding-left: 37px;
-        padding-bottom: 1em;
-        padding-top: 1em;
-        color: white;
-    }
-
-    #email {
-        font-size: 3em;
-        line-height: 1em;
-        padding-right: 2em;
-        padding-left: 2em;
-        padding-bottom: 1em;
-        color: white;
-    }
-
-}
-
-@media (max-width:800px) {
-    /* small tablet, portrait ipad, small browser */
-    #top {
-        display: grid;
-        grid-template-columns: 100%;
-    }
-    .nav {
-        display: none;
-    }
-
-    #bio {
-        font-size: 1em;
-        max-width: 70vw;
-        padding-top: 1em;
-        padding-bottom: 0em;
-    }
-
-    h1 {
-        font-size: 3em;
-    }
-
-    #name {
-        padding-top: 1em;
-    }
-
-    h3 {
-        display: block;
-        font-size: 1.3em;
-        -webkit-margin-before: 1em;
-        -webkit-margin-after: 0em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
-        font-weight: bold;
-    }
-
-    .app {
-        margin-top: 4em;
-    }
-
-    .info-wrap {
-        grid-column: 5 / 10;
-    }
-
-    .mockup {
-        margin-top: 1em;
-        grid-column: 10 / 18;
-        width: auto;
-    }
-
-    p.task {
-        font-size: 0.6em;
-    }
-
-    p.solution {
-        font-size: 0.6em;
-    }
-
-    p.solutiontrip {
-        font-size: 0.6em;
-    }
-
-    .monstersimg {
-        padding-top: 3em;
-        grid-column: 6 / 15;
-    }
-
-    .info-wrap2 {
-        padding-top: 2em;
-        padding-right: 2em;
-        grid-column: 2 / 6;
-    }
-
-    .brand {
-        padding-top: 1em;
-    }
-
-    .bike {
-        padding-top: 2em;
-    }
-
-    .fashionimg {
-        height: auto;
-        width: auto;
-        padding-top: 2em;
-    }
-
-    .info-wrap5 {
-        grid-column: 13 / 17;
-        padding-top: 2em;
-    }
-
-    .IWD {
-        padding-top: 8em;
-    }
-
-    .info-wrap6 {
-        grid-column: 2 / 6;
-    }
-
-    .fem {
-        grid-column: 7 / 16;
-        padding-top: 2em;
-        height: auto;
-    }
-
-    .tractor {
-        padding-top: 3em;
-    }
-
-    .info-wrap7 {
-        grid-column: 6 / 10;
-    }
-
-    .tractorimg {
-        grid-column: 11 / 17;
-        padding-bottom: 1em;
-    }
-
-    .future {
-        padding-top: 0em;
-    }
-
-    .delorean {
-        height: auto;
-    }
-
-    .info-wrap8 {
-        grid-column: 11 / 14;
-        padding-left: 1em;
-    }
-
-    #bottom {
-        font-size: 1.3em;
-        text-align: left;
-        max-width: 90vw;
-        padding-left: 37px;
-        padding-top: 3em;
-        color: white;
-    }
-
-    #bottom2 {
-        font-size: 1.3em;
-        text-align: left;
-        max-width: 90vw;
-        padding-left: 37px;
-        padding-bottom: 1em;
-        padding-top: 1em;
-        color: white;
-    }
-
-    #email {
-        font-size: 3em;
-        line-height: 1em;
-        padding-right: 2em;
-        padding-left: 2em;
-        padding-bottom: 1em;
-        color: white;
-    }
-
-}
-
-
-@media max-width:900px) {
-    /* tablet, landscape iPad, lo-res laptops ands desktops */
-    
- #bio {
-    font-size: 1.5em;
-    max-width: 70vw;
-    padding-top: 1em;
-    padding-bottom: 3em;
-}
-
-h1 {
-    font-size: 5em;
-}
-    
-    #name {
-        padding-top: 0em;
-    }
-
-#top {
-    display: grid;
-    grid-template-columns: 75% 25%;
-}
-
-.nav {
-    grid-column: 25%;
-    display: inline-block;
-    margin-top: 2em;
-    margin-left: 4em;
-    display: inline;
-}
-
 
 @media (min-width:1000px) {
     /* big screens */
