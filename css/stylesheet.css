@@ -571,7 +571,7 @@ img {
     }
 
     h1 {
-        font-size: 3em;
+        font-size: 4em;
     }
 
     #name {
@@ -589,7 +589,7 @@ img {
     }
 
     .app {
-        margin-top: 4em;
+        margin-top: 6em;
     }
 
     .info-wrap {
@@ -603,15 +603,15 @@ img {
     }
 
     p.task {
-        font-size: 0.6em;
+        font-size: 0.9em;
     }
 
     p.solution {
-        font-size: 0.6em;
+        font-size: 0.9em;
     }
 
     p.solutiontrip {
-        font-size: 0.6em;
+        font-size: 0.9em;
     }
 
     .monstersimg {
