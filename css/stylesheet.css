@@ -386,13 +386,12 @@ img {
 
 /* ---- MEDIA QUERIES ----- */
 
-@media (max-width : 481px) {
+@media (max-width: 481px) {
     /* smartphones, iPhone, portrait 480x320 phones */
-    
     #top {
         display: grid;
     }
-    
+
     .nav {
         display: none;
     }
@@ -466,62 +465,62 @@ img {
     .brand {
         padding-top: 1em;
     }
-    
+
     .bike {
-    padding-top: 2em;
-}
-    
+        padding-top: 2em;
+    }
+
     .fashionimg {
-    height: auto;
-    width: auto;
-    padding-top: 2em;
-}
+        height: auto;
+        width: auto;
+        padding-top: 2em;
+    }
 
     .info-wrap5 {
-    grid-column: 13 / 17;
-    padding-top: 2em;
-}
-    
+        grid-column: 13 / 17;
+        padding-top: 2em;
+    }
+
     .IWD {
-    padding-top: 6em;
-}
-    
-      .info-wrap6 {
-    grid-column: 2 / 6;
-}
-    
+        padding-top: 6em;
+    }
+
+    .info-wrap6 {
+        grid-column: 2 / 6;
+    }
+
     .fem {
-            grid-column: 7 / 16;
+        grid-column: 7 / 16;
         padding-top: 2em;
         height: auto;
     }
-    
+
     .tractor {
         padding-top: 3em;
     }
-    
+
     .info-wrap7 {
         grid-column: 6 / 10;
     }
-    
+
     .tractorimg {
         grid-column: 11 / 17;
         padding-bottom: 1em;
     }
-    
+
     .future {
-        padding-top: 0em; 
+        padding-top: 0em;
     }
-    
+
     .delorean {
         height: auto;
     }
-    
+
     .info-wrap8 {
         grid-column: 11 / 14;
         padding-left: 1em;
     }
-    
+
     #bottom {
         font-size: 1.3em;
         text-align: left;
@@ -552,9 +551,8 @@ img {
 
 }
 
-@media (max-width:700px){
+@media (max-width:700px) {
     /* small tablet, portrait ipad, small browser */
-    
     #top {
         display: grid;
         grid-template-columns: 100%;
@@ -628,62 +626,62 @@ img {
     .brand {
         padding-top: 1em;
     }
-    
+
     .bike {
-    padding-top: 2em;
-}
-    
+        padding-top: 2em;
+    }
+
     .fashionimg {
-    height: auto;
-    width: auto;
-    padding-top: 2em;
-}
+        height: auto;
+        width: auto;
+        padding-top: 2em;
+    }
 
     .info-wrap5 {
-    grid-column: 13 / 17;
-    padding-top: 2em;
-}
-    
+        grid-column: 13 / 17;
+        padding-top: 2em;
+    }
+
     .IWD {
-    padding-top: 8em;
-}
-    
-      .info-wrap6 {
-    grid-column: 2 / 6;
-}
-    
+        padding-top: 10em;
+    }
+
+    .info-wrap6 {
+        grid-column: 2 / 6;
+    }
+
     .fem {
-            grid-column: 7 / 16;
+        grid-column: 7 / 16;
         padding-top: 2em;
         height: auto;
     }
-    
+
     .tractor {
         padding-top: 3em;
     }
-    
+
     .info-wrap7 {
         grid-column: 6 / 10;
     }
-    
+
     .tractorimg {
         grid-column: 11 / 17;
         padding-bottom: 1em;
     }
-    
+
     .future {
-        padding-top: 0em; 
+        padding-top: 0em;
     }
-    
+
     .delorean {
         height: auto;
     }
-    
+
     .info-wrap8 {
         grid-column: 11 / 14;
         padding-left: 1em;
     }
-    
+
     #bottom {
         font-size: 1.3em;
         text-align: left;
@@ -714,10 +712,8 @@ img {
 
 }
 
-@media (max-width:800px){
+@media (max-width:800px) {
     /* small tablet, portrait ipad, small browser */
-    
-        
     #top {
         display: grid;
         grid-template-columns: 100%;
@@ -791,62 +787,62 @@ img {
     .brand {
         padding-top: 1em;
     }
-    
+
     .bike {
-    padding-top: 2em;
-}
-    
+        padding-top: 2em;
+    }
+
     .fashionimg {
-    height: auto;
-    width: auto;
-    padding-top: 2em;
-}
+        height: auto;
+        width: auto;
+        padding-top: 2em;
+    }
 
     .info-wrap5 {
-    grid-column: 13 / 17;
-    padding-top: 2em;
-}
-    
+        grid-column: 13 / 17;
+        padding-top: 2em;
+    }
+
     .IWD {
-    padding-top: 8em;
-}
-    
-      .info-wrap6 {
-    grid-column: 2 / 6;
-}
-    
+        padding-top: 8em;
+    }
+
+    .info-wrap6 {
+        grid-column: 2 / 6;
+    }
+
     .fem {
-            grid-column: 7 / 16;
+        grid-column: 7 / 16;
         padding-top: 2em;
         height: auto;
     }
-    
+
     .tractor {
         padding-top: 3em;
     }
-    
+
     .info-wrap7 {
         grid-column: 6 / 10;
     }
-    
+
     .tractorimg {
         grid-column: 11 / 17;
         padding-bottom: 1em;
     }
-    
+
     .future {
-        padding-top: 0em; 
+        padding-top: 0em;
     }
-    
+
     .delorean {
         height: auto;
     }
-    
+
     .info-wrap8 {
         grid-column: 11 / 14;
         padding-left: 1em;
     }
-    
+
     #bottom {
         font-size: 1.3em;
         text-align: left;
@@ -877,10 +873,8 @@ img {
 
 }
 
-@media (max-width:800px){
+@media (max-width:800px) {
     /* small tablet, portrait ipad, small browser */
-    
-        
     #top {
         display: grid;
         grid-template-columns: 100%;
@@ -954,62 +948,62 @@ img {
     .brand {
         padding-top: 1em;
     }
-    
+
     .bike {
-    padding-top: 2em;
-}
-    
+        padding-top: 2em;
+    }
+
     .fashionimg {
-    height: auto;
-    width: auto;
-    padding-top: 2em;
-}
+        height: auto;
+        width: auto;
+        padding-top: 2em;
+    }
 
     .info-wrap5 {
-    grid-column: 13 / 17;
-    padding-top: 2em;
-}
-    
+        grid-column: 13 / 17;
+        padding-top: 2em;
+    }
+
     .IWD {
-    padding-top: 8em;
-}
-    
-      .info-wrap6 {
-    grid-column: 2 / 6;
-}
-    
+        padding-top: 8em;
+    }
+
+    .info-wrap6 {
+        grid-column: 2 / 6;
+    }
+
     .fem {
-            grid-column: 7 / 16;
+        grid-column: 7 / 16;
         padding-top: 2em;
         height: auto;
     }
-    
+
     .tractor {
         padding-top: 3em;
     }
-    
+
     .info-wrap7 {
         grid-column: 6 / 10;
     }
-    
+
     .tractorimg {
         grid-column: 11 / 17;
         padding-bottom: 1em;
     }
-    
+
     .future {
-        padding-top: 0em; 
+        padding-top: 0em;
     }
-    
+
     .delorean {
         height: auto;
     }
-    
+
     .info-wrap8 {
         grid-column: 11 / 14;
         padding-left: 1em;
     }
-    
+
     #bottom {
         font-size: 1.3em;
         text-align: left;
@@ -1041,12 +1035,33 @@ img {
 }
 
 
-@media max-width:1000px){
+@media max-width:900px) {
     /* tablet, landscape iPad, lo-res laptops ands desktops */
-    .nav {
-        margin-top: 6em;
-    }
+    
+ #bio {
+    font-size: 1.5em;
+    max-width: 70vw;
+    padding-top: 1em;
+    padding-bottom: 6em;
 }
+
+h1 {
+    font-size: 6em;
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.nav {
+    grid-column: 25%;
+    display: inline-block;
+    margin-top: 2em;
+    margin-left: 4em;
+    display: inline;
+}
+
 
 @media (min-width:1025px) {
     /* big screens */
