@@ -1042,12 +1042,16 @@ img {
     font-size: 1.5em;
     max-width: 70vw;
     padding-top: 1em;
-    padding-bottom: 6em;
+    padding-bottom: 3em;
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 5em;
 }
+    
+    #name {
+        padding-top: 0em;
+    }
 
 #top {
     display: grid;
@@ -1063,7 +1067,11 @@ h1 {
 }
 
 
-@media (min-width:1025px) {
+@media (min-width:1000px) {
     /* big screens */
-    /* designed for this size */
 }
+    
+   @media (min-width:1250px) {
+    /* biggest screens */
+           /* designed for this size */
+} 
